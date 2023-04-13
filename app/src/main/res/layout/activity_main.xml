@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+android:background="@color/sienna"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Coders Cafe"
+        android:textSize="80dp"
+        android:textAlignment="center"
+android:textColor="@color/noname"
+        android:id="@+id/Cafe"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter 1st order"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter 2nd order"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter 3rd order"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:backgroundTint="@color/LemonChiffon"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="ORDER"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
